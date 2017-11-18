@@ -26,7 +26,7 @@ class Scraper
         course.description = post.css("p").text
       end
     end
-    #
+
     # def get_courses
     #   self.get_page.css("#course-grid")
     # end
