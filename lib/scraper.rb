@@ -21,7 +21,7 @@ class Scraper
     end
 
     def get_courses
-      
+      self.get_page.css("#{course-grid}")
     end
 
 end
