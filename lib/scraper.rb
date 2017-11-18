@@ -27,7 +27,9 @@ class Scraper
     # end
     #
     # def make_courses
-    #
+    # title: doc.css(".post").first.css("h2").text
+    # schedule: doc.css(".post").first.css(".date").text
+    # description: doc.css(".post").first.css("p").text
     # end
 
 end
