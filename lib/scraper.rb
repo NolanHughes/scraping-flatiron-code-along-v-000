@@ -30,7 +30,7 @@ class Scraper
     # def get_courses
     #   self.get_page.css("#course-grid")
     # end
-    #
+
     # def make_courses
 
     # end
